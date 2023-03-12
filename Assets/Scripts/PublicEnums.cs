@@ -1,4 +1,4 @@
-namespace Enums {
+namespace CustomEnums {
 
     public enum TrashType : byte {
         Plastic,

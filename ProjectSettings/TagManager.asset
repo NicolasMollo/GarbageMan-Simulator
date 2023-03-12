@@ -4,16 +4,18 @@
 TagManager:
   serializedVersion: 2
   tags:
+  - TrashBin
   - TrashCan
+  - Trash
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Player
   - Water
   - UI
-  - 
-  - 
+  - Not Passable
+  - Interactable
   - 
   - 
   - 

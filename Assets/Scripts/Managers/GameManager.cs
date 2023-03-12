@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
 
 namespace Managers {
 
@@ -14,6 +15,11 @@ namespace Managers {
 
 
         // Add here the managers references
+        public TrashManager trashManager = null;
+
+
+        // Add here the events
+        public Action OnSetUp = null;
 
 
         private void Awake() {
@@ -32,7 +38,9 @@ namespace Managers {
 
         private void SetUp() {
             DontDestroyOnLoad(this);
+            OnSetUp?.Invoke();
         }
+
 
     }
 
