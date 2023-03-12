@@ -4,8 +4,9 @@ using UnityEngine;
 using GameActors;
 using CustomEnums;
 using System;
+using DataClasses;
 
-namespace Managers {
+namespace DataClasses {
 
     [Serializable]
     public class TrashManagerData {
@@ -18,6 +19,10 @@ namespace Managers {
         [HideInInspector] public int undifferentiatedTrashes = 0;
 
     }
+
+}
+
+namespace Managers {
 
     [DisallowMultipleComponent]
     public class TrashManager : MonoBehaviour {

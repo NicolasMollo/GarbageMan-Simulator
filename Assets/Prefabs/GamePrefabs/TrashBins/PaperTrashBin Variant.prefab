@@ -125,12 +125,12 @@ PrefabInstance:
     - target: {fileID: 4146082485511854082, guid: bc2752d23ba7d584eae06714103edc7a,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.33
+      value: 0.01
       objectReference: {fileID: 0}
     - target: {fileID: 4146082485511854082, guid: bc2752d23ba7d584eae06714103edc7a,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -10.44
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4146082485511854082, guid: bc2752d23ba7d584eae06714103edc7a,
         type: 3}
@@ -170,7 +170,7 @@ PrefabInstance:
     - target: {fileID: 4146082485511854083, guid: bc2752d23ba7d584eae06714103edc7a,
         type: 3}
       propertyPath: m_Name
-      value: PaperTrashBin
+      value: PaperTrashBin Variant
       objectReference: {fileID: 0}
     - target: {fileID: 4146082485674572017, guid: bc2752d23ba7d584eae06714103edc7a,
         type: 3}
